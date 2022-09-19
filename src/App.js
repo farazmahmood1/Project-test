@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
-
+import QuestionOne from './components/QuestionOne';
+import QuestionTwo from './components/QuestionTwo';
+import QustionThree from './components/QustionThree';
+import QuestionFour from './components/QuestionFour';
+import QuestionFive from './components/QuestionFive';
+import QuestionSix from './components/QuestionSix';
+import QuestionSeven from './components/QuestionSeven';
+import QuestionEight from './components/QuestionEight';
+import QuestionNine from './components/QuestionNine';
+import AppendArray from './components/AppendArray';
+import FuncOne from './childFunction/FuncOne';
+import FuncTwo from './childFunction/FuncTwo';
+import FilterData from './components/FilterData';
+import AddDynamicInput from './components/AddDynamicInput';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <QuestionOne/> */}
+      {/* <QuestionTwo /> */}
+      {/* <QustionThree /> */}
+      {/* <QuestionFour/> */}
+      {/* <QuestionFive /> */}
+      {/* <QuestionSix /> */}
+      {/* <QuestionSeven /> */}
+      {/* <QuestionEight /> */}
+      {/* <QuestionNine /> */}
+      {/* <AppendArray /> */}
+      {/* <FuncOne /> */}
+      {/* <FuncTwo /> */}
+      <FilterData />
+      {/* <AddDynamicInput /> */}
     </div>
   );
 }

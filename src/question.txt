@@ -1,0 +1,61 @@
+Question 1:
+
+Ask the user to enter numbers in 2 inputs, set the input one in 1st array and the 2nd input in 2nd array after that make a button labeled as "See Result" once user click it print the similar numbers  in both arrays.( If can not show on screen then console it)
+ - apply check (if the no of inputs in both arrays are not equal then pressing on button "See Result" an alert should pop up saying "Arrays are not equal make sure of it" and result should not be printed ).
+- show length of both arrays at the side of inputs.
+
+Question 2:
+
+- create 6 separate functions name them according to your design.
+- fetch data from API in first function and show it in 6th function.
+-  Note you can not call 6th function as a child in first function,
+   child calling sequence should be in sequence like function_3 should be called in function_2 and 
+   not in any other function. Make A reload button in 6th function on Pressing it data from api should be called in function 1 and an alert should POP up saying "Data called in function 1"
+
+Q3: 
+      Declare an array of 7 records consist of these attributes
+- id
+- posted_by
+- post_caption
+- post_image
+- like_counts 
+- isliked
+
+->> : Now once the array is declared map it on the screen showing all attributes (Example INSTAGRAM POSTS)  now once user hits like button the like count of specific object should be increased and the heart should get red ( Hint set isLiked attribute to true for specific object and using its value make the color of heart red or grey ) 
+
+--> :  Add delete button on above of each post and once user click on delete that post should get deleted
+
+--> and on above post list make small form to add an post in array (Image is not required ) 
+
+ 
+
+ Question 4: 
+   
+7:28 PM
+Question 4: Declare an array of 7 records , use these attributes 
+- id
+- Post_name
+- Post_Image
+- post_category
+- price 
+
+--> Now once the array is declared show the list of record on screen but categorized them , create the category button on the top of screen name ( old posts, New Posts, All Posts, latest posts)
+--> Filter the record according to category
+--> if there is no record for any any of category it should show text " No record Founded"
+
+Q5: 
+Make a box and an input if user enter the "red" in input the color of box should get red , whatever the color is in the input the box should display the same color.
+
+An input for border radius if user enter border radius in the input the box's border radius should get affected
+Q6: 
+Take entry of three no from user and print the middle no on screen.
+
+Q7: 
+Ask the user to enter 
+item_name
+item_price
+
+Once the user has done entering user will click on submit , once the user click on submit all the entered items and total price should be displayed on screen.
+Q8: Write the behavior of "=="( double equal) and  "===" (triple equal) ?
+Optional Question :"
+Fetch data from api and show on record table , sath me ek button bana do us specific field ki detail dekhne k lye thats it
